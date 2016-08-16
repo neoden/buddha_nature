@@ -3,7 +3,7 @@ from ten_thousands_things import Dog, MU
 
 class Master:
     def has_buddha_nature(self, obj):
-        if obj == Dog:
+        if obj is Dog:
             return MU
 
 
